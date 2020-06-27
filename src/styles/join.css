@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: white;
+}
+.join-page-container {
+  background: linear-gradient(
+    90deg,
+    rgba(13, 1, 20, 1) 21%,
+    rgba(93, 30, 141, 1) 80%,
+    rgba(133, 93, 217, 1) 100%
+  );
+}
+.join {
+  margin: auto;
+  text-align: center;
+}
+.whyjoin {
+  margin-top: 4rem;
+  text-align: center;
+}
+.join-page-container img {
+  border-radius: 10px;
+  object-fit: cove;
+}

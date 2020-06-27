@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* HOME PAGE */
+.v-header {
+  height: auto;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.fullscreen-video-wrap video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+/* .box-container {
+} */
+.btn-general {
+  border-radius: 10px;
+  font-size: 20px;
+
+  text-transform: uppercase;
+
+  padding: 5px;
+  transition: all 0.4s;
+  background-color: rgb(0, 0, 0, 0.67);
+  color: white;
+}
+.content {
+  padding-top: 20rem;
+}
+@media (max-width: 768px) {
+  .content {
+    padding-top: 2px;
+  }
+}

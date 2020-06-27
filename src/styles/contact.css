@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: white;
+}
+
+#contact-section {
+  background: linear-gradient(
+    90deg,
+    rgba(13, 1, 20, 1) 21%,
+    rgba(93, 30, 141, 1) 80%,
+    rgba(133, 93, 217, 1) 100%
+  );
+  padding-top: 5rem;
+
+  height: 100%;
+  width: 100%;
+}
+.contact-form {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url(../images/mail.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.contact-details {
+  text-align: left;
+  padding: 10% 2% 10% 5%;
+}
+.form-info {
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+  letter-spacing: 2px;
+}
+p {
+  padding-bottom: 2rem;
+}
